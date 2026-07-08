@@ -51,3 +51,34 @@ open.addEventListener("click", function(e){
 close.addEventListener("click", function(e){
   nav2.style.transform = "translateX(250px)"
 });
+
+function animateSkill(target, percentId, barId) {
+  const percent = document.getElementById(percentId);
+  const bar = document.getElementById(barId);
+
+  let count = 0;
+
+  const interval = setInterval(() => {
+    count++;
+
+    percent.textContent = count + "%";
+    bar.style.width = count + "%";
+
+    if (count >= target) {
+      clearInterval(interval);
+    }
+  }, 30);
+}
+
+// Skills
+animateSkill(90, "html-percent", "html-bar");
+animateSkill(85, "css-percent", "css-bar");
+animateSkill(52, "js-percent", "js-bar");
+animateSkill(75, "ps-percent", "ps-bar");
+// animateSkill(70, "react-percent", "react-bar");
+// animateSkill(95, "python-percent", "python-bar");
+// animateSkill(88, "figma-percent", "figma-bar");
+// animateSkill(78, "pr-percent", "pr-bar");
+// animateSkill(92, "ai-percent", "ai-bar");
+// animateSkill(85, "figma-percent", "figma-bar");
+

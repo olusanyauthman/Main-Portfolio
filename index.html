@@ -1,63 +1,361 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mr Cool</title>
-  <script src="https://kit.fontawesome.com/d68ba3a598.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header1">
-    <img src="images/mc logo hrt frosty white.png" alt="My logo">
-    <i id="open" class="fa-solid fa-bars"></i>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr Cool</title>
+    <script
+      src="https://kit.fontawesome.com/d68ba3a598.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/images/secondary logo.png" />
+  </head>
 
-  <nav class="nav">
-    <a href=""><i class="fa-solid fa-house"></i></a>
-   <a href=""><i class="fa-solid fa-user"></i></a>
-   <a href=""><i class="fa-solid fa-gear"></i></a>
-   <a href=""><i class="fa-solid fa-folder"></i></a>
-   <a href=""><i class="fa-solid fa-graduation-cap"></i></a>
-   <a href=""><i class="fa-solid fa-envelope"></i></a>
-  </nav>
+  <body>
+    <header class="header1">
+      <img src="images/mc logo hrt frosty white.png" alt="My logo" />
+      <i id="open" class="fa-solid fa-bars"></i>
+    </header>
 
-  <nav id="nav2" class="nav2">
-    <a id="close" href="#"><span><i class="fa-solid fa-x"></i></span></a>
-    <a href="#"><i class="fa-solid fa-house"></i>Home</a>
-   <a href="#"><i class="fa-solid fa-user"></i>About Me</a>
-   <a href="#"><i class="fa-solid fa-gear"></i>Skills</a>
-   <a href="#"><i class="fa-solid fa-folder"></i>Projects</a>
-   <a href="#"><i class="fa-solid fa-graduation-cap"></i>Certificate</a>
-   <a href="#"><i class="fa-solid fa-envelope"></i>Contact Us</a>
+    <nav class="nav">
+      <a href="#home" class="nav-link"><i class="fa-solid fa-house"></i></a>
+      <a href="#about" class="nav-link"><i class="fa-solid fa-user"></i></a>
+      <a href="#skills" class="nav-link"><i class="fa-solid fa-gear"></i></a>
+      <a href="#portfolio" class="nav-link"><i class="fa-solid fa-folder"></i></a>
+      <a href="" class="nav-link"><i class="fa-solid fa-graduation-cap"></i></a>
+      <a href="" class="nav-link"><i class="fa-solid fa-envelope"></i></a>
+    </nav>
 
-  </nav>
+    <nav id="nav2" class="nav2">
+      <a id="close" href="#"
+        ><span><i class="fa-solid fa-x"></i></span
+      ></a>
+      <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+      <a href="#"><i class="fa-solid fa-user"></i>About Me</a>
+      <a href="#"><i class="fa-solid fa-gear"></i>Skills</a>
+      <a href="#"><i class="fa-solid fa-folder"></i>Projects</a>
+      <a href="#"><i class="fa-solid fa-graduation-cap"></i>Certificate</a>
+      <a href="#"><i class="fa-solid fa-envelope"></i>Contact Us</a>
+    </nav>
 
-  <main>
-    <section class="section1">
-      <div class="landing-img">
-       <img src="images/a9aab5d54a51c6cea07f9c7e499c1e52.png" alt="">
-      </div>
-      <div class="landing-info">
-       <h1>Hi, I'm <span>Mr Cool</span></h1>
-       <h2>I'm a <span id="typing"></span><span class="cursor">|</span></h2>
-        <p>I create beautiful, responsive web experiences using modern technologies</p>
-        <p>Passionate about clean code and user-centered design.</p>
-       <div class="landing-links">
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-        <a href=""><i class="fa-brands fa-github"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-       </div>
-       <div class="landing-btn">
-        <a href=""><button>View My Work</button></a>
-        <a class="contact-us-btn" href=""><button>contact us</button></a>
-       </div>
-      </div>
-      
-    </section>
-  </main>
+    <main>
+      <section id="home" class="section1">
+        <div class="landing-img">
+          <img src="images/a9aab5d54a51c6cea07f9c7e499c1e52.png" alt="" />
+        </div>
+        <div class="landing-info">
+          <h1>Hi, I'm <span>Mr Cool</span></h1>
+          <h2>I'm a <span id="typing"></span><span class="cursor">|</span></h2>
+          <p>
+            I create beautiful, responsive web experiences using modern
+            technologies
+          </p>
+          <p>Passionate about clean code and user-centered design.</p>
+          <div class="landing-links">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="landing-btn">
+            <a href=""><button>View My Work</button></a>
+            <a class="contact-us-btn" href=""><button>contact us</button></a>
+          </div>
+        </div>
+      </section>
 
-  <script src="script.js"></script>
-</body>
+      <section id="about" class="section2">
+        <div class="about-container">
+          <div class="about-img">
+            <img src="/images/about img.png" alt="An Image of me" />
+          </div>
+
+          <div class="about-me">
+            <h1><span>About</span> Me</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
+              odio porro, dolorum blanditiis obcaecati nihil quos voluptatem,
+              nemo excepturi libero sequi alias vero vel praesentium tempora
+              consequuntur est mollitia ipsum sed! Neque doloremque velit quod
+              quasi minima optio saepe, sunt voluptatem voluptatibus esse
+              veritatis aliquam ab sed cum impedit laboriosam rem doloribus ut
+              perspiciatis eum similique rerum fugit quibusdam atque? Cumque
+              inventore soluta illum nesciunt velit maxime aspernatur architecto
+              iusto fugiat provident magnam, impedit doloribus quisquam aliquid
+              quam error quo vitae eaque quia cum ducimus consectetur? Nesciunt
+              quaerat animi eum voluptatum eius culpa laboriosam tempora iste
+              mollitia, ab non distinctio!
+            </p>
+            <a href="/images/aout img.png" download>
+              <button>
+                Download CV<i class="fa-solid fa-download"></i>
+                </button>
+              </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section3">
+        <div class="skills-container">
+          <div class="skills-img">
+            <img
+              src="images/skill image3.png"
+              alt=""
+            />
+          </div>
+
+          <div class="skills-info">
+            <h2>My <span> Skills</span></h2>
+            <p>
+              Lorem ipsum dolor sit am Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Nihil voluptatibus libero vel mollitia adipisci
+              sapiente, officia voluptas autem sequi rerum repudiandae aperiam
+              ea ab. Neque maxime perferendis ut rerum tenetur?et, consectetur
+              adipisicing elit. Deleniti accusantium, in placeat, doloribus
+              delectus nam officiis obcaecati omnis quidem, iure quasi fuga
+              adipisci porro nobis? Blanditiis omnis voluptate necessitatibus
+              corrupti!
+            </p>
+            <div class="skills-perce">
+              <div class="box-overflow">
+              <div class="skill">
+                <span class="skill-name">
+                  <img src="images/html.png" alt="">
+                </span>
+
+                
+            
+                <span class="skill-content">
+                    <div id="html-percent" class="percent">
+                      0%
+                    </div>
+            
+                    <div class="progress-bar">
+                        <div class="progress" id="html-bar"></div>
+                    </div>
+                  </span>
+            </div>
+            <div class="skill">
+                <span class="skill-name">
+                  <img class="css" src="images/css.jpg" alt="">
+                </span>
+  
+                  <span class="skill-content"> 
+                  <div id="css-percent" class="percent">
+                    0%
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" id="css-bar"></div>
+                  </div>
+                </span>
+            </div>
+            <div class="skill">
+                <span class="skill-name">
+                  <img src="images/js.jpg" alt="">
+                </span>
+            
+                <span class="skill-content"> 
+                  <div id="js-percent" class="percent">
+                    0%
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" id="js-bar"></div>
+                  </div>
+                </span>
+            </div>
+            <div class="skill">
+                <span class="skill-name">
+                  <img class="ps" src="images/photoshop.jpg" alt="">
+                </span>
+            
+                <span class="skill-content"> 
+                  <div id="ps-percent" class="percent">
+                    0%
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" id="ps-bar"></div>
+                  </div>
+                </span>
+            </div>
+            <div class="skill">
+                <span class="skill-name">
+                  <img src="images/react.jpg" alt="">
+                </span>
+            
+                <span class="skill-content"> 
+                  <div id="react-percent" class="percent">
+                    Coming Soon 🚀
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" id="react-bar"></div>
+                  </div>
+                </span>
+                  </div>
+                  <div class="skill">
+                <span class="skill-name">
+                  <img src="images/python.jpg" alt="">
+                </span>
+            
+                <span class="skill-content"> 
+                  <div id="python-percent" class="percent">
+                    Coming Soon 🚀
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" id="python-bar"></div>
+                  </div>
+                </span>
+                  </div>
+                  <div class="skill">
+                <span class="skill-name">
+                  <img src="images/figma.jpg" alt="">
+                </span>
+            
+                <span class="skill-content"> 
+                  <div id="figma-percent" class="percent">
+                    Coming Soon 🚀
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" id="figma-bar"></div>
+                  </div>
+                </span>
+                  </div>
+                  <div class="skill">
+                <span class="skill-name">
+                  <img class="pr" src="images/pr.png" alt="">
+                </span>
+            
+                <span class="skill-content"> 
+                  <div id="pr-percent" class="percent">
+                    Coming Soon 🚀
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" id="pr-bar"></div>
+                  </div>
+                </span>
+                  </div>
+                  <div class="skill">
+                <span class="skill-name">
+                  <img src="images/ai.png" alt="">
+                </span>
+            
+                <span class="skill-content"> 
+                  <div id="ai-percent" class="percent">
+                    Coming Soon 🚀
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" id="ai-bar"></div>
+                  </div>
+                </span>
+                  </div>
+                  
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section4">
+        <h1>My <span>Portfolio</span></h1>
+        
+        <div class="card-con">
+          <div class="semi-card">
+            <div class="card-category">
+              <h2>Graphic Design <i></i></h2>
+                <div class="card">
+                  <a href="images/Bakers Delight Day 1.1.png"><img src="images/Bakers Delight Day 1.1.png" alt=""></a>
+                  <h3>Bakery Brand design</h3>
+                  
+                  <span>Photoshop</span>
+                </div>
+                
+
+                <div class="card">
+                  <a href="images/Black and White Vote2.png"><img src="images/Black and White Vote2.png" alt=""></a>
+                  <h3>A Champaign Flier</h3>
+                  <span>Photoshop</span>
+                </div>
+                <a class="see-more" href="">See More</a>
+            </div>
+
+            <div class="card-category">
+              <h2>Web Design<i></i></h2>
+                <div class="card">
+                  <a href="images/black port.png"><img src="images/black port.png" alt=""></a>
+                  <h3>A portfolio website</h3>
+                  <a href="https://mrcooll.vercel.app" target="_blank">Click here to view</a>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </div>
+                
+
+                <div class="card">
+                  <a href="images/mrcoolfreeze.png"><img src="images/mrcoolfreeze.png" alt=""></a>
+                  <h3>A Resturant Website</h3>
+                  <a href="https://mr-cool-freeze.vercel.app/" target="_blank">Click here to view</a>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </div>
+                <a class="see-more" href="">See More</a>
+            </div>
+
+            <div class="card-category">
+              <h2>UI/UX Design<i></i></h2>
+                <div class="card">
+                  <a href="images/Bakers Delight Day 1.1.png"><img src="images/Bakers Delight Day 1.1.png" alt=""></a>
+                  <h3>A champaign Flier</h3>
+                  <span>Photoshop</span>
+                </div>
+                
+
+                <div class="card">
+                  <a href="images/Bakers Delight Day 1.1.png"><img src="images/Bakers Delight Day 1.1.png" alt=""></a>
+                  <h3>A champaign Flier</h3>
+                  <span>Photoshop</span>
+                </div>
+                <a class="see-more" href="">See More</a>
+            </div>
+
+            <div class="card-category">
+              <h2>Logo Design <i></i></h2>
+                <div class="card">
+                  <a href="images/Bakers Delight Day 1.1.png"><img src="images/Bakers Delight Day 1.1.png" alt=""></a>
+                  <h3>A champaign Flier</h3>
+                  <span>Photoshop</span>
+                </div>
+                
+
+                <div class="card">
+                  <a href="images/Bakers Delight Day 1.1.png"><img src="images/Bakers Delight Day 1.1.png" alt=""></a>
+                  <h3>A champaign Flier</h3>
+                  <span>Photoshop</span>
+                </div>
+                <a class="see-more" href="">See More</a>
+            </div>
+
+            <div class="card-category">
+              <h2>Motion Graphics<i></i></h2>
+                <div class="card">
+                  <a href="images/Bakers Delight Day 1.1.png"><img src="images/Bakers Delight Day 1.1.png" alt=""></a>
+                  <h3>A champaign Flier</h3>
+                  <span>Photoshop</span>
+                </div>
+                
+
+                <div class="card">
+                  <a href="images/Bakers Delight Day 1.1.png"><img src="images/Bakers Delight Day 1.1.png" alt=""></a>
+                  <h3>A champaign Flier</h3>
+                  <span>Photoshop</span>
+                </div>
+                <a class="see-more" href="">See More</a>
+            </div>
+
+           
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
