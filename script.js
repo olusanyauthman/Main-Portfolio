@@ -45,6 +45,7 @@ let close = document.getElementById('close');
 let nav2 = document.getElementById('nav2')
 
 open.addEventListener("click", function(e){
+  nav2.style.display = 'flex';
   nav2.style.transform = "translateX(0)"
 });
 
